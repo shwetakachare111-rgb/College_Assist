@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F8FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAMPUS ASSIST"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College Help &amp; Complaint System"
+            android:textSize="15sp"
+            android:textColor="#607080"
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="30dp" />
+
+        <!-- Welcome Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="#DCEBFF"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to CampusAssist 👋"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#163A6B"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How can we help you today?"
+                android:textSize="14sp"
+                android:textColor="#607080"
+                android:gravity="center"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+
+        <!-- Section Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Services"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:layout_marginBottom="15dp" />
+
+        <!-- Report Problem -->
+        <Button
+            android:id="@+id/reportButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="📝  REPORT A PROBLEM"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2878D4"
+            android:layout_marginBottom="12dp" />
+
+        <!-- My Complaints -->
+        <Button
+            android:id="@+id/myComplaintsButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="📋  MY COMPLAINTS"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2878D4"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Notices -->
+        <Button
+            android:id="@+id/noticesButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="📢  COLLEGE NOTICES"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2878D4"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Emergency -->
+        <Button
+            android:id="@+id/emergencyButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="☎  EMERGENCY"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D9534F"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Reminder -->
+        <Button
+            android:id="@+id/reminderButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="🔔  TEST REMINDER"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:backgroundTint="#DCEBFF"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CampusAssist • Making campus life easier"
+            android:textSize="12sp"
+            android:textColor="#8A98A8"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+    </LinearLayout>
+
+</ScrollView>

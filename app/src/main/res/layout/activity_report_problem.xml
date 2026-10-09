@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F8FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- PAGE TITLE -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPORT A PROBLEM"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help us improve your campus"
+            android:textSize="15sp"
+            android:textColor="#526579"
+            android:gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="28dp" />
+
+
+        <!-- PROBLEM TITLE -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Problem Title"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:layout_marginBottom="7dp" />
+
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Enter problem title"
+            android:textColor="#172B4D"
+            android:textColorHint="#66788A"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:inputType="text"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:backgroundTint="#2878D4"
+            android:layout_marginBottom="20dp" />
+
+
+        <!-- CATEGORY -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:layout_marginBottom="7dp" />
+
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:backgroundTint="#2878D4"
+            android:layout_marginBottom="20dp" />
+
+
+        <!-- LOCATION -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:layout_marginBottom="7dp" />
+
+        <EditText
+            android:id="@+id/locationEditText"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Where is the problem?"
+            android:textColor="#172B4D"
+            android:textColorHint="#66788A"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:inputType="text"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:backgroundTint="#2878D4"
+            android:layout_marginBottom="20dp" />
+
+
+        <!-- DESCRIPTION -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:layout_marginBottom="7dp" />
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:hint="Describe the problem in detail"
+            android:textColor="#172B4D"
+            android:textColorHint="#66788A"
+            android:textSize="15sp"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:padding="16dp"
+            android:backgroundTint="#2878D4"
+            android:layout_marginBottom="22dp" />
+
+
+        <!-- PRIORITY -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Priority"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:layout_marginBottom="6dp" />
+
+        <RadioGroup
+            android:id="@+id/priorityRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="22dp">
+
+            <RadioButton
+                android:id="@+id/lowRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low"
+                android:textSize="15sp"
+                android:textColor="#26384D" />
+
+            <RadioButton
+                android:id="@+id/mediumRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium"
+                android:textSize="15sp"
+                android:textColor="#26384D"
+                android:layout_marginStart="18dp" />
+
+            <RadioButton
+                android:id="@+id/highRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High"
+                android:textSize="15sp"
+                android:textColor="#26384D"
+                android:layout_marginStart="18dp" />
+
+        </RadioGroup>
+
+
+        <!-- DATE -->
+
+        <Button
+            android:id="@+id/dateButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="SELECT DATE"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:backgroundTint="#DCEBFF"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- SUBMIT -->
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="SUBMIT COMPLAINT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2878D4"
+            android:elevation="5dp"
+            android:layout_marginBottom="22dp" />
+
+
+        <!-- FOOTER -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CampusAssist • We are here to help"
+            android:textSize="12sp"
+            android:textColor="#7A8999"
+            android:gravity="center"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>

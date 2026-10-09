@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F8FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="30dp">
+
+        <!-- Campus Illustration -->
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="🏫"
+            android:textSize="80sp"
+            android:gravity="center"
+            android:background="#DCEBFF"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="30dp" />
+
+        <!-- Application Name -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAMPUS"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#163A6B"
+            android:gravity="center"
+            android:letterSpacing="0.08" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ASSIST"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#2878D4"
+            android:gravity="center"
+            android:letterSpacing="0.08"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Tagline -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your College. Your Voice. Your Solution."
+            android:textSize="15sp"
+            android:textColor="#607080"
+            android:gravity="center"
+            android:layout_marginBottom="45dp" />
+
+        <!-- Get Started -->
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="GET STARTED"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2878D4"
+            android:elevation="6dp" />
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College Help &amp; Complaint System"
+            android:textSize="12sp"
+            android:textColor="#8A98A8"
+            android:gravity="center"
+            android:layout_marginTop="35dp" />
+
+    </LinearLayout>
+
+</ScrollView>
